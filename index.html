@@ -2,16 +2,42 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <title>Rock, Paper, Scissors Showdown!</title>
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
 
     <body>
-        <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
         <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="assets/javascript/app.js"></script>
+        <div class="container">
+            <br>
+            <div class = "jumbotron">
+                <h1>ROCK-PAPER-SCISSOR: 2-PLAYER CHALLENGE!</h1>
+            </div>
 
+            <div class="row">
+                <div class="container username">
+                    <input type="text" id="userinput" placeholder="username">
+                    <button type="submit" class="btn btn-default" id="addUser">Start!</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="container message">
+                    <h2>Waiting for another player to join...</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container slotsFull">
+                    <h2>System is full, please try again later</h2>
+                </div>
+            </div>
+
+        <footer></footer>
     </body>
 </html>

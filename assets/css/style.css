@@ -1,0 +1,17 @@
+body {
+    background-image: url("../images/rps-background.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 { 
+    text-align: center;
+    color: #ffffff;
+    font-size: x-large;
+}
+
+.user {
+    color: #ffffff;
+    text-align: center;
+}
